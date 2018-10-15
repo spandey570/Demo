@@ -30,7 +30,7 @@
               <!-- <name>Environment</name>
               <value>${test.environment}</value> -->
               <name>env</name>
-              <value>${env}</value>
+              <value>${env1}</value>
             </property>
           </properties>
           
