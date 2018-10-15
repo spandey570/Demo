@@ -1,21 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="Environment" value="Prod"/>
   <test thread-count="5" name="Test">
+    <parameter name="Environment" value="Prod"/>
     <classes>
-      <class name="demo.maven.Tc1"/>
+      <class name="Copy.Tc1"/>
     </classes>
   </test> <!-- Test -->
-  <test name="Test(failed)">
-    <classes>
-      <class name="demo.maven.Tc1">
-        <methods>
-          <include name="TestFlow2"/>
-          <include name="TestFlow1"/>
-          <include name="TestFlow3"/>
-          <include name="EnvironmentSetup"/>
-        </methods>
-      </class> <!-- demo.maven.Tc1 -->
-    </classes>
-  </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -23,14 +23,14 @@
          
 					<suiteXmlFiles>
 						<!-- TestNG suite XML files -->
-						<suiteXmlFile>TC1testng.xml</suiteXmlFile>
+						<suiteXmlFile>CopyTC1testng.xml</suiteXmlFile>
 					</suiteXmlFiles>
 				<properties>
             <property>
               <!-- <name>Environment</name>
               <value>${test.environment}</value> -->
-              <name>env</name>
-              <value>${env}</value>
+              <name>Environment</name>
+              <value>${test.environment}</value>
             </property>
           </properties>
           
