@@ -7,6 +7,7 @@ public class PPFUseCase {
 		
 		PPF PPFA = new PPF();
 		PPFA.PPFAmount(5000, 10);
+		System.out.println("PPF for the employee");
 
 	}
 
