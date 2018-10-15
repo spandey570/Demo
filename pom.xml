@@ -29,8 +29,8 @@
             <property>
               <!-- <name>Environment</name>
               <value>${test.environment}</value> -->
-              <name>env</name>
-              <value>${env1}</value>
+              <name>env12</name>
+             
             </property>
           </properties>
           
