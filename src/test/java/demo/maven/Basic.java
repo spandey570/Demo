@@ -13,6 +13,10 @@ public class Basic {
 		if (System.getProperty("env").equalsIgnoreCase("prod")) {
 			System.out.println("Abhishek prod env");
 		}
+		
+		if (System.getProperty("env").equalsIgnoreCase("QA")) {
+			System.out.println("Srii QA env");
+		}
 
 		/*if (Environment.equalsIgnoreCase("Prod")) {
 			String UrlP = "https://www.flipkart.com/";
