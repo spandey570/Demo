@@ -1,1 +1,7 @@
+/.idea
+/test-output/
 /target/
+.classpath/
+.classpath
+*.iml
+/bin

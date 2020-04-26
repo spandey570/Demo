@@ -17,9 +17,6 @@
           <artifactId>maven-surefire-plugin</artifactId>
           <version>2.21.0</version>
           <configuration>
-          <source>1.8</source>
-          <target>1.8</target>
-          
          
 					<suiteXmlFiles>
 						<!-- TestNG suite XML files -->
@@ -27,15 +24,7 @@
 					</suiteXmlFiles>
 				<properties>
             <property>
-              <!-- <name>Environment</name>
-              <value>${test.environment}</value> -->
 
-              <name>Environment</name>
-              <value>${test.environment}</value>
-=======
-              
-             
->>>>>>> 4dac201218b316ece0d5849be1d40818e3dd2540
             </property>
           </properties>
           
@@ -66,5 +55,19 @@
     <version>6.9.10</version>
     <scope>test</scope>
 </dependency>
+
+      <!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
+      <dependency>
+          <groupId>io.github.bonigarcia</groupId>
+          <artifactId>webdrivermanager</artifactId>
+          <version>3.8.1</version>
+      </dependency>
+
+      <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-chrome-driver -->
+      <dependency>
+          <groupId>org.seleniumhq.selenium</groupId>
+          <artifactId>selenium-chrome-driver</artifactId>
+          <version>3.14.0</version>
+      </dependency>
  </dependencies> 
 </project>
