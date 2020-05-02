@@ -35,7 +35,7 @@ public class DemoSampleTest {
         driver.findElement(By.xpath("//*[@value='LOGIN']")).click();
         System.out.println("Successfully clicked on login button");
         String errorMsg= driver.findElement(By.xpath("//*[@data-test='error']")).getText();
-        Assert.assertEquals(errorMsg,"Epic sadface: Username and password do not match any user in this service");
+        Assert.assertEquals(errorMsg,"Epic sadface: Username and password do not match any user in this service1");
         driver.quit();
         System.out.println("Browser closed successfully");
     }
