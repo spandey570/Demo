@@ -8,7 +8,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import static jdk.nashorn.internal.runtime.regexp.joni.Config.log;
+
 
 public class DemoSampleTest {
 
