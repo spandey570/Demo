@@ -50,7 +50,7 @@
       <dependency>
           <groupId>io.appium</groupId>
           <artifactId>java-client</artifactId>
-          <version>7.0.0</version>
+          <version>8.0.0</version>
       </dependency>
 
 
@@ -80,14 +80,14 @@
       <dependency>
           <groupId>org.seleniumhq.selenium</groupId>
           <artifactId>selenium-chrome-driver</artifactId>
-          <version>3.14.0</version>
+          <version>4.0.0</version>
       </dependency>
 
       <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-firefox-driver -->
       <dependency>
           <groupId>org.seleniumhq.selenium</groupId>
           <artifactId>selenium-firefox-driver</artifactId>
-          <version>3.141.59</version>
+          <version>4.0.0</version>
       </dependency>
 
   </dependencies>
